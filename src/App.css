@@ -1,12 +1,24 @@
 .profile {
+  position: relative;
   width: 200px;
   text-align: center;
   padding: 1rem;
-  background-color: gray;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0,0,0,0.2);
+  margin: 2rem;
 }
 
 .photo {
   width: 200px;
   height: 200px;
   border-radius:  100%;
+}
+
+.new {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  background-color: aqua;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
 }
