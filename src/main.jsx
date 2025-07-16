@@ -1,11 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import AppXY from './AppXY'
+import AppMentor from './AppMentor';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <AppCounter /> */}
-    <AppXY />
+    <AppMentor />
   </StrictMode>,
 )
